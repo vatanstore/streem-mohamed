@@ -37,4 +37,4 @@ if (message.author.id !== '398518643203506176') return message.reply('** هذا 
  });
 
 
-client.login("Mzk4NTE4NjQzMjAzNTA2MTc2.Dvxw8w.YenVcMxflIbzv0a104MqxfWXcpU");
+client.login(process.env.BOT_TOKEN);
