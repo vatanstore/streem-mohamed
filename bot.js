@@ -2,10 +2,10 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 
-DAB.on('ready', () => {
+client.on('ready', () => {
    console.log(`bot online`);
-   DAB.user.setGame(`لا تحزن إذا حذفك أحدهم من حياته، فلربما لم يتحمّل مرافقة الملوك، فقرّر المشي مع أمثاله.`,"http://twitch.tv/.Mohamed")
-   DAB.user.setStatus("dnd")
+   client.user.setGame(`لا تحزن إذا حذفك أحدهم من حياته، فلربما لم يتحمّل مرافقة الملوك، فقرّر المشي مع أمثاله.`,"http://twitch.tv/.Mohamed")
+  client.user.setStatus("dnd")
 });
 
 
